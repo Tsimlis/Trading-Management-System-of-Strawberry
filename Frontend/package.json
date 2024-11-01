@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --dest=../Published/front",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "alertifyjs": "^1.11.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "browser-image-compression": "^2.0.2",
+    "chart.js": "^3.0.2",
+    "core-js": "^2.6.5",
+    "font-awesome": "^4.7.0",
+    "fullcalendar": "^3.9.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "vee-validate": "^2.1.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-unit-mocha": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "chai": "^4.1.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
