@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400,600');
+html, body {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+
+    background-image: url(/strawberry/straw_01.png), url(/strawberry/mo_01.png);
+    background-size: cover; /* ปรับขนาดพื้นหลังให้ครอบคลุมหน้าจอ */
+    background-position: center bottom; /* วางพื้นหลังให้ติดอยู่ที่ด้านล่าง */
+    background-repeat: no-repeat; /* ไม่ให้พื้นหลังซ้ำ */
+    background-attachment: fixed; /* ทำให้พื้นหลังคงที่และเลื่อนตาม */
+    min-height: 100vh; /* ตั้งค่าความสูงขั้นต่ำเท่ากับความสูงของหน้าจอ */
+    margin: 0;
+    animation: moveBackground 3s linear infinite;
+}
+/* สร้างแอนิเมชันสำหรับการเคลื่อนไหว */
+@keyframes moveBackground {
+    0%, 100% {
+      background-position: center center, 50% 0%;
+    }
+    50% {
+      background-position: center center, 50% 7%;
+    }
+  }
+
+
+.card,
+.card-header,
+.form-control,
+.btn,
+.alert,
+.page-link,
+.modal-content,
+.fc-event {
+    border-radius: 5px !important;
+}
+.card {
+    border-color: #17A2B8;
+}
+.card-header {
+    background-color: darkcyan;
+    color: blanchedalmond;
+    /* background-color: #17A2B8; */
+    /* color: #FFFFFF; */
+}
+label {
+    /* color: blanchedalmond; */
+    color: #6C757D;
+    font-weight: 300;
+}
+.form-control,
+.alert {
+    font-weight: 300;
+}
+.alertify .ajs-header,
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok {
+    color: #17A2B8;
+}
+.table th {
+    color: #525B62;
+    font-weight: 400;
+}
+.table td {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #525B62;
+    vertical-align: middle;
+}
+.pointer {
+    cursor: pointer !important;
+}
+.img-container {
+    width: 123px;
+    height: 69px;
+    border: solid 1px #ced4da;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.layout > .container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.fullcalendar h2{
+    font-size: 26px;
+}
+.fc-event.fc-title, .fc-event.fc-time{
+    color: white;
+}
+.fc-event.allowed{
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.pagination li.active .page-link {
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+.page-link,
+.page-link:hover,
+.page-link:focus {
+    color: #17A2B8;
+    box-shadow: none;
+}
+
+
+/* ทำให้สามารถเคลื่อนไหวได้ */
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.99);
+    }
+}
+
+.zoomingBox {
+    animation: zoomInOut 3s ease-in-out infinite;
+}
+
+
+/* for Moblie device */
+@media (max-width: 575.98px) { 
+  .table-responsive .table th {
+        white-space: nowrap;
+    }
+    .no-wrap {
+        white-space: nowrap !important;
+    }
+}

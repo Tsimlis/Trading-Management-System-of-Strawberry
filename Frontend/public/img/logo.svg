@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 75">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #17a2b8;
+      }
+
+      .cls-1 {
+        font-size: 60px;
+        font-family: FontAwesome;
+      }
+
+      .cls-2 {
+        fill: #6c757d;
+        font-size: 22px;
+        font-family: Kanit-Medium, Kanit;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        font-size: 50px;
+      }
+
+      .cls-4 {
+        font-size: 18px;
+        font-family: Kanit-Regular, Kanit;
+        letter-spacing: 0.03em;
+      }
+    </style>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(-10 -3)">
+    <text id="_" data-name="" class="cls-1" transform="translate(10 61.667)"><tspan x="0" y="0">SHOP</tspan></text>
+    <text id="STERBERRY" data-name="STERBERRY" class="cls-2" transform="translate(155 61.5)"><tspan x="0" y="0">strawberry Store</tspan></text>
+    <text id="ชุมชนสตรอว์เบอร์รี่" class="cls-4" transform="translate(165 34)"><tspan x="0" y="0">ชุมชนสตรอว์เบอร์รี่</tspan></text>
+  </g>
+</svg>
